@@ -2,14 +2,16 @@
     box-sizing: border-box;
 }
 body {
-    background-color: lightseagreen;
+    background-image: url(/images/firstpic.jpg);
 }
 h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    color: white;
     transition: height 2s;
+    border: 5px solid white;
 }
 h3:hover {
 height: 300px;
