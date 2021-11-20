@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightseagreen;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    transition: height 2s;
+}
+h3:hover {
+height: 300px;
+}
